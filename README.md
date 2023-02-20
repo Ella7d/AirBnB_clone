@@ -1,19 +1,30 @@
-## AirBnB clone - Web static
-## Background Context
-Before developing a big and complex web application, we will build the front end step-by-step.
+## Welcome to AirBnB clone - The console
+The AirBnB Console allows us to manage the objects of the web app.
 
-The first step is to “design” / “sketch” / “prototype” each element:
+## Commands
+Create) - create BaseModel - Creates a new instance of BaseModel (ex: User or Place)
+Show - show BaseModel / show BaseModel My_First_Model - If the ID is missing or instance not found it's going to show the message.
+Destroy - destroy BaseModel - Deletes an instance based on the class and id
+All - all BaseModel - Prints all objects based or not on the class name as a list of strings
+Update - update BaseModel - Updates an object based on the class name and id (id, created_at, updated_at can't be updated
+## Execution of the console
+$ ./console.py
+(hbnb) help
 
-Create simple HTML static pages
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
 
-Style guide
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
 
-Fake contents
+EOF - EOF - exit the program
+quit - quit - exit the program
+help - help/help quit/help EOF - help exiting the program
+Empty line - N/A - an empty line + ENTER shouldn't execute anything
+Custom Prompt - (hbnb) - N/A
 
-No Javascript
-
-No data loaded from anything
-
-During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.
-
-
+## Author 
+Elilta Tesfagabr / Ella7d@github.com
